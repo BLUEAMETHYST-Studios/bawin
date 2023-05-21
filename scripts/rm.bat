@@ -1,1 +1,0 @@
-powershell rm.ps1

@@ -1,0 +1,1 @@
+echo "Vi/Vim isn't available at the moment!"

@@ -4,5 +4,5 @@ $remote_integer = $output.Content.Trim()
 
 $local_integer = Get-Content -Path $Env:LOCALAPPDATA + "/bawin/VERSION.txt"
 if ($local_integer -lt $remote_integer) {
-    . $Env:LOCALAPPDATA/bawin/autoupdate/updater.ps1 # server has a newer version
+    Write-Host "(i) A newer version of bawin is available: $remote_integer"
 }
