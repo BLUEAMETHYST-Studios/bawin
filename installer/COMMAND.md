@@ -1,6 +1,6 @@
 # DISCLAIMER
 
-
+Doesn't work, just don't run yet.
 
 ## Copy this and paste it into CMD:
 ```
