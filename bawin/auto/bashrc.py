@@ -1,4 +1,4 @@
-from os import getlogin
+from os import getlogin, getcwd
 
 def execbashrc(line: str):
     if line.startswith("if") or line.startswith("elseif") or line.startswith("else"):
@@ -10,3 +10,8 @@ def bashrc(name):
                 execbashrc(l)
         else:
             ...
+            
+def PS1(ps1):
+    ...
+def curdir():
+    return getcwd()
